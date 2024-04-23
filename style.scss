@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    height: 30px;
+    padding: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F2F4F7;
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p:nth-child(2){
+            padding:20px;
+        }
+        select{
+            border-style: none;
+            background-color: #F2F4F7;
+            padding-left: 20px;
+        }
+    }
+    > p:nth-child(2){
+        color: grey;
+    }
+    div:nth-child(3){
+        p:nth-child(1){
+            color: blue;
+        }
+    }
+}
+
+.nav{
+    height: 60px;
+    padding: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav__logo-block{
+        width: 230px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 30px;
+            border-radius: 50%;
+        }
+        h1{
+            font-size: 30px;
+            color: #7000FF;
+        }
+    }
+    button{
+        padding:10px 20px;
+        font-size: 15px;
+        border: none;
+        background-color: #F0F0FF;
+        color: #7000FF;
+        border-radius: 5px;
+        i{
+            font-size: 20px;
+            padding:0 2px 0 0;
+        }
+    }
+    .search-items{
+        position: relative;
+        input{
+            width: 500px;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        i{
+            position: absolute;
+            right: 0;
+            background-color: #F0F0FF;
+            padding:7px 30px;
+            border-radius: 5px; 
+            border: 1px solid gray;
+            border-left:none;
+        }
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        i{
+            font-size: 20px;
+        }
+    }
+}
+.nav2{
+    height: 60px;
+    padding: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        display: flex; 
+    }
+    ul li{
+        padding: 0 10px;
+        list-style-type: none;
+        color: gray;
+    }
+    select{
+        border-style: none;
+        color: gray;
+    }
+    .union, .low-prices,.our-yard{
+        width: 130px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        img{
+            width: 25px;
+        }
+    }
+    .our-yard{
+        width: 100px;
+    }
+}
